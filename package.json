@@ -1,0 +1,14 @@
+{
+  "name": "savesweep-local",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Local browser automation for reviewing and removing your own Instagram saved posts.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/checkpoint.js && node --check src/instagram.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "playwright": "^1.56.0" }
+}

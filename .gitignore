@@ -1,0 +1,7 @@
+node_modules/
+savesweep-progress.json
+savesweep-progress.json.tmp
+*.log
+.env
+.DS_Store
+Thumbs.db
